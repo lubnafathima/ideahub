@@ -47,7 +47,7 @@ const writeToFile = (text) => {
 };
 
 let categoriesText = '';
-Object.keys(categories)
+Object.categories
   .sort()
   .forEach((c) => {
     const list = categories[c];
